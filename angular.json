@@ -70,7 +70,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-docker-app:build:production"
+              "browserTarget": "angular-docker-app:build:production",
+              "disableHostCheck": true
             },
             "development": {
               "browserTarget": "angular-docker-app:build:development"
