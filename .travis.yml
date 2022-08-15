@@ -11,11 +11,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "eu-west-1"
-  app: "angular-docker-app"
-  env: "Angulardockerapp-env"
-  bucket_name: "elasticbeanstalk-eu-west-1-682779427598"
-  bucket_path: "angular-docker-app"
+  region: "ap-south-1"
+  app: "angular-app"
+  env: "Angularapp-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-682779427598"
+  bucket_path: "angular-app"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
